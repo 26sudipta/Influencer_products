@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu {
+  display: flex;
+  list-style: none;
+}
+nav h1 {
+  font-size: 30px;
+}
+#menu li {
+  margin-left: 30px;
+  font-size: 20px;
+  align-self: center;
+}
+
+
+#sec_1 {
+  width: 80%;
+  height: 650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#sec_11 {
+  width: 50%;
+  align-items: center;
+}
+
+#sec_12 {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 650px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec_11 h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#sec_11 p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+
+#sec_11 button {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  border: none;
+}
+
+#sec_2 {
+  width: 70%;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
